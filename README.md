@@ -11,7 +11,7 @@ Getting Started
 1. Install [Docker Toolbox](https://www.docker.com/docker-toolbox) (Mac, Windows),
    or otherwise get docker and docker-compose into a working state (Linux).
 2. Enter a shell with docker set up appropriately (e.g. via "Docker Quickstart Terminal")
-3. `git clone --recursive git@github.com:pebble/cloudpebble-composed.git && cd cloudpebble-composed`
+3. `git clone --recursive git@github.com:pctechadam/cloudpebble-composed.git && cd cloudpebble-composed`
 4. `./dev_setup.sh` (this will take a while)
 5. `docker-compose up`
 
