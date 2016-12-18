@@ -19,7 +19,7 @@ At the end of this, you will have seven Docker containers running. The CloudPebb
 should pick up most changes without being rebuilt, although in some cases you may have to stop and
 restart them (re-run `docker-compose up`).
 
-The current compose file assumes that the docker machine/VM is accessible at 192.168.99.100. This
+The current compose file assumes that the docker machine/VM is accessible at 172.17.0.1. This
 is true by default, but may not be true for you.
 
 Limitations
@@ -27,4 +27,4 @@ Limitations
 
 - Pebble SSO is not available; only local accounts work.
 - Websocket installs are not available because pebble SSO is not available
-- You'll have to change things manually if 192.168.99.100 isn't right.
+- You'll have to change things manually if 172.17.0.1 isn't right.
