@@ -1,6 +1,3 @@
-[submodule "cloudpebble"]
-	path = cloudpebble
-	url = git@github.com:pctechadam/cloudpebble.git
 [submodule "cloudpebble-ycmd-proxy"]
 	path = cloudpebble-ycmd-proxy
 	url = git@github.com:pctechadam/cloudpebble-ycmd-proxy.git
